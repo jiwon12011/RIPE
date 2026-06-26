@@ -1,0 +1,210 @@
+[
+  {
+    "product_slug": "fig-pear",
+    "product_name": "Fig & Pear",
+    "product_type": "Eau de Parfum 50ml",
+    "asset_role": "default",
+    "usage_note": "제품 외관컷",
+    "file": "fig-pear/default.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3ac5c7d88194b0f14974e87a5425.png"
+  },
+  {
+    "product_slug": "fig-pear",
+    "product_name": "Fig & Pear",
+    "product_type": "Eau de Parfum 50ml",
+    "asset_role": "hover",
+    "usage_note": "hover 연출컷: fig and pear wet still life",
+    "file": "fig-pear/hover.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3b10609881949c0c06f32c63263c.png"
+  },
+  {
+    "product_slug": "peach-blossom",
+    "product_name": "Peach Blossom",
+    "product_type": "Eau de Parfum 50ml",
+    "asset_role": "default",
+    "usage_note": "제품 외관컷",
+    "file": "peach-blossom/default.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3b478ea48194ad4156e343eb551d.png"
+  },
+  {
+    "product_slug": "peach-blossom",
+    "product_name": "Peach Blossom",
+    "product_type": "Eau de Parfum 50ml",
+    "asset_role": "hover",
+    "usage_note": "hover 연출컷: dewy peach still life",
+    "file": "peach-blossom/hover.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3b8abf708194affa830fb3f0e162.png"
+  },
+  {
+    "product_slug": "orchard",
+    "product_name": "Orchard",
+    "product_type": "Body Oil 100ml",
+    "asset_role": "default",
+    "usage_note": "제품 외관컷",
+    "file": "orchard/default.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3be2937481949bae0baea1a3f0de.png"
+  },
+  {
+    "product_slug": "orchard",
+    "product_name": "Orchard",
+    "product_type": "Body Oil 100ml",
+    "asset_role": "hover",
+    "usage_note": "hover 제형컷: golden oil pipette droplet",
+    "file": "orchard/hover.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3c10230c8194a9bd0efce82fdac1.png"
+  },
+  {
+    "product_slug": "honey-fig",
+    "product_name": "Honey Fig",
+    "product_type": "Lip Balm 8g",
+    "asset_role": "default",
+    "usage_note": "제품 외관컷",
+    "file": "honey-fig/default.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3c3af48081948cf8744fd38cbb70.png"
+  },
+  {
+    "product_slug": "honey-fig",
+    "product_name": "Honey Fig",
+    "product_type": "Lip Balm 8g",
+    "asset_role": "hover",
+    "usage_note": "hover 제형/원료컷: honey balm and fig",
+    "file": "honey-fig/hover.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3c7e858081949985f3167331c127.png"
+  },
+  {
+    "product_slug": "pear-blossom",
+    "product_name": "Pear Blossom",
+    "product_type": "Body Oil 100ml",
+    "asset_role": "default",
+    "usage_note": "제품 외관컷",
+    "file": "pear-blossom/default.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3cd24de08194a9bca7e690ff9d5b.png"
+  },
+  {
+    "product_slug": "pear-blossom",
+    "product_name": "Pear Blossom",
+    "product_type": "Body Oil 100ml",
+    "asset_role": "hover",
+    "usage_note": "hover 연출/제형컷: pears, blossoms, oil drops",
+    "file": "pear-blossom/hover.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3d0a8f2c81948e655a1adfec744c.png"
+  },
+  {
+    "product_slug": "black-cherry",
+    "product_name": "Black Cherry",
+    "product_type": "Eau de Parfum 50ml",
+    "asset_role": "default",
+    "usage_note": "제품 외관컷",
+    "file": "black-cherry/default.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3d34e45481949dfe8fc44028408c.png"
+  },
+  {
+    "product_slug": "black-cherry",
+    "product_name": "Black Cherry",
+    "product_type": "Eau de Parfum 50ml",
+    "asset_role": "hover",
+    "usage_note": "hover 연출컷: glossy wet black cherries",
+    "file": "black-cherry/hover.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3d5e7f448194a84909cf98b3f661.png"
+  },
+  {
+    "product_slug": "cherry-glow",
+    "product_name": "Cherry Glow",
+    "product_type": "Lip Balm 8g",
+    "asset_role": "default",
+    "usage_note": "제품 외관컷",
+    "file": "cherry-glow/default.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3db5d7d08194bc2ebce69f378e86.png"
+  },
+  {
+    "product_slug": "cherry-glow",
+    "product_name": "Cherry Glow",
+    "product_type": "Lip Balm 8g",
+    "asset_role": "hover",
+    "usage_note": "hover 제형컷: cherry gel balm swipe",
+    "file": "cherry-glow/hover.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3df474c08194aa4a4739b73d0bb1.png"
+  },
+  {
+    "product_slug": "peach-silk",
+    "product_name": "Peach Silk",
+    "product_type": "Body Oil 100ml",
+    "asset_role": "default",
+    "usage_note": "제품 외관컷",
+    "file": "peach-silk/default.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3e1ef20481948e404f809cbecb1e.png"
+  },
+  {
+    "product_slug": "peach-silk",
+    "product_name": "Peach Silk",
+    "product_type": "Body Oil 100ml",
+    "asset_role": "hover",
+    "usage_note": "hover 제형/원료컷: peach-gold oil texture",
+    "file": "peach-silk/hover.png",
+    "size": {
+      "width": 1254,
+      "height": 1254
+    },
+    "source_generated_file": "C:\\Users\\Administrator\\.codex\\generated_images\\019f0312-fd23-7df2-9765-f286e511a97c\\ig_02bf9d8479ad81bb016a3e3e45d5708194ad7377312713bf07.png"
+  }
+]
