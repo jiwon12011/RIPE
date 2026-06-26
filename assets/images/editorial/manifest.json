@@ -1,0 +1,38 @@
+{
+  "hero": [
+    {
+      "name": "Fig & Pear Redesign Hero",
+      "src": "assets/images/editorial/hero/hero-fig-pear-redesign-01.png",
+      "ratio": "16:9"
+    },
+    {
+      "name": "Garden Table Redesign Hero",
+      "src": "assets/images/editorial/hero/hero-garden-redesign-02.png",
+      "ratio": "16:9"
+    }
+  ],
+  "lifestyle": [
+    {
+      "name": "Bath Fig & Pear",
+      "src": "assets/images/editorial/lifestyle/lifestyle-bath-fig-pear.png",
+      "ratio": "4:5"
+    },
+    {
+      "name": "Vanity Fig & Pear",
+      "src": "assets/images/editorial/lifestyle/lifestyle-vanity-fig-pear.png",
+      "ratio": "4:5"
+    },
+    {
+      "name": "Hand Label Fig & Pear",
+      "src": "assets/images/editorial/lifestyle/lifestyle-hand-label-fig-pear.png",
+      "ratio": "4:5"
+    }
+  ],
+  "instagram": [
+    {
+      "name": "Tote Fig & Pear",
+      "src": "assets/images/editorial/instagram/instagram-tote-fig-pear.png",
+      "ratio": "1:1"
+    }
+  ]
+}
