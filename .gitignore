@@ -1,0 +1,7 @@
+
+# jiwon-harness 런타임 (테스트·빌드 캡처)
+.jiwon-team/
+
+# macOS
+.DS_Store
+**/.DS_Store
