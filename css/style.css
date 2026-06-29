@@ -908,15 +908,48 @@ h1, h2, h3, p { margin: 0; }
     backdrop-filter: blur(12px);
     border-bottom-color: var(--line-soft);
   }
-  /* 히어로 세로 스택: 위 16:9 이미지, 아래 크림 카피(가운데 정렬) */
-  /* 모바일에서 sticky 해제 — 자연스러운 단순 흐름 */
-  .hero { display: block; min-height: 0; position: static; }
-  .hero-img { position: static; height: auto; aspect-ratio: 16 / 9; z-index: auto; }
+  /* 모바일: 크림 카피블록 제거 → 텍스트를 히어로 이미지 위에 오버레이(가운데) */
+  /* sticky만 해제, relative로 단순 흐름 유지하고 이미지가 히어로를 꽉 채움 */
+  .hero { display: flex; align-items: center; position: relative; min-height: min(82svh, 600px); overflow: hidden; }
+  .hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 33%; z-index: 0; }
   /* 리플: 모바일 비활성 (터치 환경 + GPU 부담) */
   .hero-ripple { display: none; }
-  .hero-scrim { display: none; }
-  .hero-inner { position: static; z-index: auto; justify-content: center; padding-block: clamp(2.25rem, 7vw, 3.25rem); }
-  .hero-copy { text-align: center; max-width: 100%; }
+  /* 전면 베일 제거 → 상단 사진은 맑게, 텍스트가 앉는 아래쪽만 크림 그라데이션으로 보호 */
+  .hero-scrim {
+    display: block;
+    background: linear-gradient(180deg,
+      rgba(245, 240, 232, 0) 0%,
+      rgba(245, 240, 232, 0) 38%,
+      rgba(245, 240, 232, 0.20) 56%,
+      rgba(245, 240, 232, 0.46) 80%,
+      rgba(245, 240, 232, 0.64) 100%);
+    z-index: 2;
+    pointer-events: none;
+  }
+  .hero-inner { position: relative; z-index: 3; justify-content: center; padding-block: clamp(2.5rem, 8vw, 4rem); }
+  .hero-copy { position: relative; text-align: center; max-width: 100%; }
+  /* 텍스트 뒤에만 옅은 크림 보호막(소프트 엣지) — 어두운 병 위에서도 카피 대비 확보, 박스 느낌 없이 */
+  .hero-copy::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    left: 50%; top: 50%;
+    width: 130%; height: 165%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(ellipse 46% 50% at 50% 50%,
+      rgba(245, 240, 232, 0.7) 0%,
+      rgba(245, 240, 232, 0.62) 50%,
+      rgba(245, 240, 232, 0.32) 78%,
+      rgba(245, 240, 232, 0) 100%);
+  }
+  /* 다양한 배경 위에서도 또렷하게 — 경미한 크림 글로우(흰 글씨 강제 대신 다크 카피 유지) */
+  .hero-title { text-shadow: 0 1px 10px rgba(245, 240, 232, 0.6); }
+  .hero-kr    { text-shadow: 0 1px 5px rgba(245, 240, 232, 0.45); }
+  /* 인트로: 모바일에선 히어로↔인트로 상단 여백을 과하지 않게(데스크탑 88px+ → 절반 수준) */
+  .intro { padding-block: clamp(3rem, 11vw, 5rem) var(--section-y); }
+  /* 한글 어절 단위 줄바꿈 — "머무르며" 같은 단어가 줄 끝에서 중간에 끊기지 않게 */
+  .intro-kr { word-break: keep-all; }
   /* 오버랩 연출 모바일 해제 — 둥근 모서리·그림자 제거 */
   .content-overlay { margin-top: 0; border-radius: 0; box-shadow: none; }
   /* 모바일 섹션 세로 여백 축소 */
