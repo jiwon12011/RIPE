@@ -43,7 +43,7 @@
       $ripple.ripples({
         resolution:   256,   /* WebGL 해상도 — 256이면 시뮬 비용 1/4, 이 은은한 굴절엔 시각차 없음 */
         dropRadius:   30,    /* 물방울 반지름(px) — 마우스 물결 크기 */
-        perturbance:  0.04,  /* 굴절 강도 — 은은하게 (사용자 확정값) */
+        perturbance:  0.025, /* 굴절 강도 — 카페24와 동일(부드러운 물 같은 잔물결) */
         interactive:  false, /* 내장 mousemove drop 비활성 — 아래 RAF 스로틀로 대체(jank 방지) */
       });
 
@@ -61,7 +61,7 @@
         moveDropRAF = requestAnimationFrame(function () {
           moveDropRAF = null;
           if (isDestroyed || scrollPaused || document.hidden) return;
-          try { $ripple.ripples('drop', mx, my, 30, 0.035); } catch (ex) { /* 무시 */ }
+          try { $ripple.ripples('drop', mx, my, 30, 0.022); } catch (ex) { /* 무시 */ } /* 진폭 — 카페24와 동일(물 같은 잔물결) */
         });
       }, { passive: true });
 
@@ -71,7 +71,7 @@
         for (var i = 0; i < 4; i++) {
           (function (d) {
             setTimeout(function () {
-              try { $ripple.ripples('drop', w * (0.18 + Math.random() * 0.64), h * (0.18 + Math.random() * 0.64), 28, 0.05); } catch (e) {}
+              try { $ripple.ripples('drop', w * (0.18 + Math.random() * 0.64), h * (0.18 + Math.random() * 0.64), 28, 0.032); } catch (e) {} /* 로드 직후 진폭 — 카페24와 동일(물 같은 잔물결) */
             }, 300 + d * 300);
           })(i);
         }
@@ -85,7 +85,7 @@
         /* 한 틱에 1방울 — 가만히 있을 땐 잔잔하게 */
         var x = w * 0.1 + Math.random() * w * 0.8;
         var y = h * 0.1 + Math.random() * h * 0.8;
-        try { $ripple.ripples('drop', x, y, 26, 0.03); } catch (e) { /* 무시 */ }
+        try { $ripple.ripples('drop', x, y, 26, 0.018); } catch (e) { /* 무시 */ } /* 자동 잔물결 진폭 — 카페24와 동일(물 같은 잔물결) */
         scheduleDrop();
       }
 

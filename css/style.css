@@ -448,8 +448,7 @@ h1, h2, h3, p { margin: 0; }
 .hero-ripple {
   position: absolute;
   inset: 0;
-  /* 데스크탑(리플 활성) img가 받는 1672 풀파일과 동일 → 메모리캐시 히트(이중 다운로드 방지) */
-  background: url('../assets/images/editorial/hero/hero-fig-pear-redesign-01.webp') center / cover no-repeat;
+  /* background(data URI 텍스처)는 css/hero-ripple.css(데스크탑 전용)가 공급 */
   z-index: 1; /* img 위, scrim 아래 */
   pointer-events: auto; /* 리플 상호작용(마우스) 수신 */
 }
